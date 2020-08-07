@@ -1,3 +1,3 @@
-# WebApplication1
+# 渭南中心医院自助机
 init
 自助机硬件接口
