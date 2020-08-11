@@ -8,33 +8,39 @@ using WebApplication1.Service;
 
 namespace WebApplication1.Controllers
 {
+    /// <summary>
+    /// 允许进卡
+    /// </summary>
     public class AllowCardInController : ApiController
     {
         // GET api/allowcardin
-        public R<string> Get()
+        public string Get()
         {
-            R<string> result = new R<string>();
-            try
-            {
-                bool flag = HardWareService.AllowCardIn();
-                if (flag)
-                {
-                   
-                    result.Code = 200;
-                    result.Data = "SUCCESS";
-                    result.Message = "允许进卡成功";
-                }
-                return result;
-            }
-            catch (Exception e)
-            {
-                result.Code = 500;
-                result.Data = "Exception";
-                result.Message = e.Message;
-                return result;
-            }
-            
-            
+            return "1";
+            //R<string> result = new R<string>();
+            //try
+            //{
+            //    bool flag = HardWareService.AllowCardIn();
+            //    if (flag)
+            //    {
+
+            //        result.Code = 200;
+            //        result.Data = "SUCCESS";
+            //        result.Message = "允许进卡成功";
+            //    }
+            //    return result;
+            //}
+            //catch (Exception e)
+            //{
+            //    result.Code = 500;
+            //    result.Data = "Exception";
+            //    result.Message = e.Message;
+            //    return result;
+            //}
+
+
         }
+
+
     }
 }
