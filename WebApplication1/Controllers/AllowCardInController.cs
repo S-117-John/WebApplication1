@@ -16,7 +16,7 @@ namespace WebApplication1.Controllers
         // GET api/allowcardin
         public string Get()
         {
-            return "1";
+            return "SUCCESS";
             //R<string> result = new R<string>();
             //try
             //{

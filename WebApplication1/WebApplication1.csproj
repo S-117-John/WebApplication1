@@ -157,6 +157,8 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\AllowCardInController.cs" />
+    <Compile Include="Controllers\MoveCardToRfController.cs" />
+    <Compile Include="Controllers\ReadCardController.cs" />
     <Compile Include="Controllers\TestCardController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
